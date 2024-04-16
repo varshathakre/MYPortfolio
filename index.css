@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  /* border: 2px solid black; */
+}
+
+
+.description{
+  /* border: 2px solid black; */
+  height: 250px;
+  width: 700px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.mainbody{
+  height: 400px;
+  width: 150%;
+  display: flex;
+  /* border: 2px solid black; */
+}
+.myimg img{
+  height:250px;
+  width: 250px;
+  /* border: 2px solid black; */
+  border-radius: 50%;
+  margin-top: 100px;
+  margin-left: 40%;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.mern{
+ font-size: large;
+ color: blue;
+}
+
+/* Header styles */
+.main-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.admin-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.main-header h1 {
+  font-size: 2.5rem;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin-left: auto;
+}
+
+.main-nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.main-nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-nav ul li a.active {
+  font-weight: bold;
+}
+
+/* Sub navigation styles */
+.sub-nav {
+  background-color: #f4f4f4;
+  padding: 10px 0;
+}
+
+.sub-nav ul {
+  list-style: none;
+}
+
+.sub-nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.sub-nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.search-form {
+  display: inline-block;
+}
+
+.search-form input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-form button {
+  padding: 8px 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* Hero section styles */
+.hero-section {
+  background-image: url('hero-bg.jpg');
+  background-size: cover;
+  color: rgb(104, 105, 105);
+  text-align: center;
+  padding: 100px 0;
+ 
+}
+
+.hero-section h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* Footer styles */
+.main-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
